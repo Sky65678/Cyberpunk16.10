@@ -1,0 +1,17 @@
+.header-block{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+  margin-left: 8%;
+}
+.soc-icon{
+    width: 30%;
+    margin-top: 2%;
+
+  }
+  .logo-header{
+    margin-top: 1%;
+  }
+

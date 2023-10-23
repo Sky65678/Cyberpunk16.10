@@ -1,0 +1,70 @@
+.cyber2077-img{
+    background-image: url('./img/Cyberpunk_2077_logo\ 2.png');
+    width:22.8%;
+    height:7vh;
+    display: inline-block;
+    margin-right: 2%;
+    margin-left: 10%;
+}
+.cd-project-img{
+    background-image:url('./img/CD_Projekt_logo\ 1.png');
+    width: 13.3%;
+    height: 7vh;
+    display: inline-block;
+}
+.footer-flex{
+    margin-top: 1%;
+}
+.footer-white-text{
+    width:50%;
+}
+.footer-white-text > p{
+    display: inline-block;
+    margin-right: 1%;
+    font-size: 20px;
+    margin-right: 10%;
+}
+.footer-white{
+    background-color: white;
+    color: black;
+}
+.footer-black{
+    background-color:black;
+    color:white;
+    height: 3vh;   
+}
+.footer-black{
+    text-align: center;
+}
+.footer-img{
+    width: 100%;
+    height: 8vh;
+}
+.footer-flex{
+    display: flex;
+}
+@media (max-height:768px) and (max-width:1024px){
+    .footer-white-text{
+        width: 65%;
+    }
+    .footer-img{
+        width: 75%;
+    }
+    .cyber2077-img{
+        width: 43.8%;
+        height: 8vh;
+        display: inline-block;
+        margin-right: 5%;
+        margin-left: 5%;
+        background-size: 100%;
+    }
+    .cd-project-img{
+        width: 26.3%;
+        height: 8vh;
+        display: inline-block;
+        background-size: 100%;
+    }
+    .footer-white-text > p{
+        font-size: 18px;
+    }
+}
