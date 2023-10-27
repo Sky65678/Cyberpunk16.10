@@ -1,4 +1,10 @@
 import './footer.css';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+  } from 'react-router-dom'
 function Footer() {
     return(
     <div className='footer-white'>
@@ -8,7 +14,7 @@ function Footer() {
                 <div className='cd-project-img'></div>
             </div>
             <div className='footer-white-text'>
-                <p>Лицензия</p>
+                <p><Link to ='/Legal'>Legal</Link></p>
                 <p>Политика конфиденциальности</p>
             </div>
         </div>

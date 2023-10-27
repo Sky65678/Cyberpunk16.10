@@ -2,10 +2,18 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
 import Footer from './footer';
-
+import Legal from './Legal';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  BrowserRouter,
+} from 'react-router-dom'
 function App() {
 
   return (
+    <BrowserRouter>
     <div className="App">
       <header className="App-header">
           <div className='Header'>
@@ -104,8 +112,11 @@ function App() {
   </body> 
     <footer>
       <Footer></Footer>
+      <Routes>
+        <Route path={'Legal'} element={<Legal></Legal>}></Route>
+      </Routes>
     </footer>
-    </div>
+    </div></BrowserRouter>
   );
   
 }
